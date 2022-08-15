@@ -1,0 +1,45 @@
+ALLCHORDS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX ns: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?x 
+where {
+?x rdf:type ns:Chord.
+}
+
+DOMINANTS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX ns: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?x 
+where {
+?x rdf:type ns:DominantChordFunction.
+}
+
+SUBDOMINANTS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX ns: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?x 
+where {
+?x rdf:type ns:SubdominantChordFunction.
+}
+
+MAJOR DOMINANTS
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX ns: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?x 
+where {
+    {?x rdf:type ns:IonianDominant.} UNION
+    { ?x rdf:type ns:HarmonicMinorDominant.}
+}
+
