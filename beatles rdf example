@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://purl.org/ontology/fho/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_0_A">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_1_Amin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_12_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_11_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_13_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_24_Fmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Fmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_23_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_25_F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_66_A">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_65_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_67_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_72_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_71_Gmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_73_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_76_D7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_75_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_77_E7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_35_Gmin">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_34_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_36_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_41_Gmin">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_40_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_42_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_45_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_44_D"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_46_G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_23_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_22_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_24_Fmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_20_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_19_Gmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_21_Gmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_60_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_59_G"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_61_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_29_F#dim">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/F#dim"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_28_D7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_30_D7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_78_E">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/E"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_77_E7"/>
+    <ns1:hasNext rdf:resource="http://purl.org/ontology/fho/NoChord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_52_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_51_Adim"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_53_D7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_27_F#dim">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/F#dim"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_26_Cmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_28_D7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_58_Cmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Cmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_57_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_59_G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_28_D7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_27_F#dim"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_29_F#dim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_48_Amin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Amin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_47_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_49_G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_9_Cmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Cmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_8_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_10_G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_25_F">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/F"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_24_Fmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_26_Cmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_64_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_63_Cmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_65_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_54_F#aug">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/F#aug"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_53_D7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_55_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_47_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_46_G"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_48_Amin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_53_D7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_52_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_54_F#aug"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_71_Gmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_70_Gdim"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_72_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_49_G">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_48_Amin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_50_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_15_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_14_Cmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_16_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_31_G#dim">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G#dim"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_30_D7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_32_Gmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_10_G">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_9_Cmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_11_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_22_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_21_Gmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_23_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_1_Amin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Amin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_0_A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_2_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_40_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_39_Bb"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_41_Gmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_56_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_55_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_57_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_51_Adim">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Adim"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_50_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_52_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_59_G">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_58_Cmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_60_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_37_G">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_36_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_38_Gmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_32_Gmin">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_31_G#dim"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_33_Gmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_44_D">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_43_D7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_45_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_3_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_2_A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_4_Amin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_26_Cmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Cmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_25_F"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_27_F#dim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_61_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_60_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_62_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_63_Cmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Cmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_62_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_64_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_70_Gdim">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gdim"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_69_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_71_Gmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_18_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_17_A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_19_Gmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_11_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_10_G"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_12_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_39_Bb">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Bb"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_38_Gmin"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_40_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_36_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_35_Gmin"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_37_G"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_38_Gmin">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_37_G"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_39_Bb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_7_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_6_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_8_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_42_A">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_41_Gmin"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_43_D7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_43_D7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_42_A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_44_D"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_57_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_56_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_58_Cmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_8_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_7_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_9_Cmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_5_Gmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_4_Amin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_6_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_74_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_73_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_75_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_17_A">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_16_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_18_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_65_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_64_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_66_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_75_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_74_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_76_D7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_55_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_54_F#aug"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_56_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_46_G">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_45_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_47_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_13_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_12_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_14_Cmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_6_G7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/G7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_5_Gmaj7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_7_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_50_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_49_G"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_51_Adim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_4_Amin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Amin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_3_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_5_Gmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_2_A">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_1_Amin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_3_A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_62_C">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_61_A7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_63_Cmaj7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_67_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_66_A"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_68_Gmin7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_68_Gmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_67_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_69_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_16_A7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/A7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_15_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_17_A"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_14_Cmaj7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Cmaj7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_13_C"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_15_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_34_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_33_Gmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_35_Gmin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_19_Gmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_18_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_20_C7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_73_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_72_G7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_74_C"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_30_D7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/D7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_29_F#dim"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_31_G#dim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_21_Gmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_20_C7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_22_G7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_69_C7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/C7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_68_Gmin7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_70_Gdim"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_77_E7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/E7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_76_D7"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_78_E"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="BEATLES_THE_-_Sg_Pepper_s_band_chord_33_Gmin7">
+    <rdf:type rdf:resource="http://purl.org/ontology/fho/Gmin7"/>
+    <ns1:hasPrevious rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_32_Gmin"/>
+    <ns1:hasNext rdf:resource="BEATLES_THE_-_Sg_Pepper_s_band_chord_34_C7"/>
+  </rdf:Description>
+</rdf:RDF>
