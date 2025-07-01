@@ -1,0 +1,120 @@
+Q1
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX mpo: <http://purl.org/ontology/mpo/>
+PREFIX fho: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ns2: <http://purl.org/ontology/fho/>
+SELECT ?track ?part ?partType ?prog WHERE {
+# Find tracks and parts containing a specific chord progression pattern (e.g., C-Am-F-G)
+?prog rdf:type mpo:ChordProgression.
+?w rdf:type fho:MixolydianSubdominant.
+?y rdf:type fho:IonianSubdominant.
+ ?x rdf:type fho:LydianRelativeDominant.
+    
+?x fho:hasNext ?y.
+    ?y fho:hasNext ?w.
+    ?w fho:hasNext ?z.
+   ?prog mpo:hasFirstProgChord ?x.
+    ?prog mpo:hasLastProgChord ?z.
+    ?part mpo:hasChordProgression ?prog .
+    ?track mpo:hasPart ?part .
+    ?part a ?partType .
+    FILTER(?partType != mpo:Part && ?partType != owl:Thing)  # Get specific part types like Verse, Chorus, etc.
+}
+
+
+Q2
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX fho: <http://purl.org/ontology/fho/>
+PREFIX mpo: <http://purl.org/ontology/mpo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+# Find common part sequences (e.g., Verse-Chorus-Verse patterns)
+SELECT ?partType1 ?partType2 ?partType3 (COUNT(*) as ?frequency) WHERE {
+    ?track mpo:hasPart ?part1 ;
+           mpo:hasPart ?part2 ;
+           mpo:hasPart ?part3 .
+    ?part1 mpo:hasNextPart ?part2 .
+    ?part2 mpo:hasNextPart ?part3 .
+    ?part1 a ?partType1 .
+    ?part2 a ?partType2 .
+    ?part3 a ?partType3 .
+    FILTER(?partType1 != mpo:Part && ?partType2 != mpo:Part && ?partType3 != mpo:Part &&
+    ?partType1 != owl:Thing && ?partType2 != owl:Thing && ?partType3 != owl:Thing)
+}
+GROUP BY ?partType1 ?partType2 ?partType3
+ORDER BY DESC(?frequency)
+
+
+Q3
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX fho: <http://purl.org/ontology/fho/>
+PREFIX mpo: <http://purl.org/ontology/mpo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+# Find common part sequences (e.g., Verse-Chorus-Verse patterns)
+# Find what typically comes before and after a specific chord (e.g., Am)
+SELECT ?precedingChord ?followingChord ?partType (COUNT(*) as ?frequency) WHERE {
+    ?chord a fho:C .
+    ?chord mpo:hasPreviousChord ?precedingChord ;
+           mpo:hasNextChord ?followingChord .
+    ?progression mpo:hasProgChord ?chord .
+    ?part mpo:hasChordProgression ?progression ;
+          a ?partType .
+    FILTER(?partType != mpo:Part && ?partType!= owl:Thing)
+}
+GROUP BY ?precedingChord ?followingChord ?partType
+ORDER BY DESC(?frequency)
+
+Q4
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX mpo: <http://purl.org/ontology/mpo/>
+PREFIX fho: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select ?prog ?track ?x ?y ?w
+where {
+  ?prog rdf:type mpo:ChordProgression.
+?x rdf:type fho:MixolydianDominant.
+?y rdf:type fho:Dominant.
+?x fho:hasNext ?y.
+    ?y fho:hasNext ?w.
+   ?prog mpo:hasFirstProgChord ?x.
+    ?prog mpo:hasLastProgChord ?w.
+    ?prog mpo:isChordProgressionof ?part.
+    ?part rdf:type mpo:Verse.
+    ?part mpo:isPartof ?track.
+}
+
+Q5
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prop: <http://example.org/props/>
+PREFIX mpo: <http://purl.org/ontology/mpo/>
+PREFIX fho: <http://purl.org/ontology/fho/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?track  WHERE {
+    ?track rdf:type mpo:Track.
+    ?verse a mpo:Verse.
+    ?verse mpo:hasNextPart ?chorus.
+    ?chorus a mpo:Chorus.
+    ?track mpo:hasPart ?verse.
+	?c1 rdf:type fho:C.
+    ?verse       mpo:hasFirstPartChord ?c1.
+	?c2 rdf:type fho:Amin.
+     ?chorus       mpo:hasFirstPartChord ?c2
+   
+}
+
+http://purl.org/ontology/mpo/punk_142665
+
+
+
